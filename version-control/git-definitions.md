@@ -1,7 +1,5 @@
 
 
-**Instructions: ** Define each of the following Git concepts.
-
 * What is version control?  Why is it useful?
 
 Version control allows access to any revisions of a file and allows all of those revisions to be merged together. Version control give a group of users access to a document. It is useful when a user makes a mistake because it gives access to go back in the file's history to avoid that mistake again. 
