@@ -1,0 +1,19 @@
+.dress-up { 
+  position: relative;
+ }
+
+#sombrero {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 20%);
+}
+#shades {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 350%);
+}
+#octo {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 35%);
+}
