@@ -11,3 +11,11 @@
 .accomplishments {
   font-size: .8em;
 }
+
+:first-child {
+  color: green;
+}
+
+ul li {
+  color: blue;
+}
