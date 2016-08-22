@@ -1,0 +1,24 @@
+
+Robot pseudocode 
+- Wait until person enters elevator
+- Ask for floor number
+- Start at the bottom button, this is the Lobby floor. 
+- Move your robot finger up the buttons until you have reached the button with the same number as the person said.
+- If the number is listed on a button: 
+	- Push that number’s button 
+- Otherwise: 
+	- Ask again for a floor number 
+
+
+Real-life pseudocode (pistachios)
+-Reach into Bag A 
+-If there are pistachios inside:
+	- Pick one out of the bag
+	- Pull apart two side shells
+	- If shells don’t pull apart
+		- Throw whole nut in Bag B
+	- If shells do pull apart 
+		- Throw shells in Bag B 
+		- Eat inside pistachio
+- Otherwise: 
+	- Through out Bag A and Bag B in garbage 
