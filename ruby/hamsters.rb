@@ -1,3 +1,4 @@
+# Pairing between sofiaclara93 & sierramclawhorn
 puts "What's the hamster's name?"
   name = gets.chomp
 puts "How loud is the hamster from 1-10?"
