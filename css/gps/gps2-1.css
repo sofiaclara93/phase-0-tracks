@@ -1,0 +1,43 @@
+header {
+  background-color: #72B6E8;
+  padding: 2%;
+
+}
+
+h1{
+  text-align: center;
+}
+
+body {
+  font-weight: 200;
+  font-family: Helvetica;
+}
+
+details {
+  background-color: #A6A1A2;
+}
+
+.column-1 {
+ border-right: 3px dotted black; 
+ width: 43%;
+ float: left;
+ padding: 2.5%;
+
+
+}
+
+.column-2 { 
+
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+  padding-bottom: 4.5%;
+}
+
+footer {
+  text-align: center;
+  clear: left;
+  width: 100%;
+  background-color: #72B6E8;
+  padding: 2%;
+}
