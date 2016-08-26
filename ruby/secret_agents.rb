@@ -1,3 +1,5 @@
+#Pairing between sofiaclara93 & SchmuhlFace
+
 # use alphabet as string
 # find matching letters in alphabet 
 # assign index 
