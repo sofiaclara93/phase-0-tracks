@@ -36,8 +36,7 @@ def decrypt(word)
   word[index] = msg[location-1]
   index += 1
   end
-  puts word
-  puts "Ok, Bye!"
+  word
 end 
 
 #puts decrypt("bcd")
