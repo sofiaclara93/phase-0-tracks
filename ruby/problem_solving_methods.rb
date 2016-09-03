@@ -1,3 +1,5 @@
+#paired w/ John Sumulong
+
 numbers = [2, 5, 13, 23, 50]
 def search_array(arr, num)
 	counter = 0
