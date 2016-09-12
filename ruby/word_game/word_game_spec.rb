@@ -16,5 +16,4 @@ describe Word_game do
     expect(game.guess_count). to eq 5
   end 
 
-
 end 

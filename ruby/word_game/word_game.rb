@@ -48,7 +48,8 @@ class Word_game
     puts "You have #{guess_count} guesses left"
     p @blanks
   end
-  
+
+  #prompts user when game is done
   def end_game
     if @guess_count == 0 && @blanks != @new_word
       puts "The game is over, Better luck next time :("
@@ -74,6 +75,7 @@ game = Word_game.new(word)
 game.blank_word(word)
 puts "User 2 try to guess the word, but be careful you only get 2 extra guesses!"
 
+#asks user for input until number of guesses are over or game is won 
 while !game.is_over
 puts "User 2 guess a letter in the secret word:"
 letter = gets.chomp
