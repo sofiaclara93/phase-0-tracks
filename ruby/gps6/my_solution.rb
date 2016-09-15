@@ -100,3 +100,8 @@ end
 
 #=======================================================================
 # Reflection Section
+# The difference between the hash syntax is that the first hash has a key that is a string while the values that are also keys are symbols
+# require_relative gets data from another file in the same directory while require gives you access to modules and other files outside of the directory.
+# you can use .each, .map to iterate through a hash. If you wanted to change the data within the has use .map
+# All of the variables were instance variables that could be used throughout the class. The STATE_DATA variable is a constant that shouldn't be changed 
+# I worked on creating DRY code and really understanding what the code does before working on it. I also go a better understanding of hashes 
