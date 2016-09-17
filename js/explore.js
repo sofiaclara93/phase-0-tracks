@@ -13,3 +13,11 @@ function reverse(str) {
 }
 
 console.log(reverse("hello"));
+
+if (1 == 1) {
+  console.log(reverse("hello"));
+}
+
+else {
+  console.log("Error");
+}
