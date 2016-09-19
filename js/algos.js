@@ -83,3 +83,12 @@ function array_of_strings(num) {
 // console.log(array_of_strings(2));
 // console.log(array_of_strings(3));
 // console.log(array_of_strings(4));
+
+for (var int = 0; int < 10; int++) {
+  // variable to have a random # of words from 1 to 10
+  var number = (Math.floor(Math.random() * 10) + 1)
+  // use the variable to have a random # of words in the outputted arrays
+  var array = array_of_strings(number);
+  console.log(array);
+  console.log("Longest word:" + longest_word(array));
+}
