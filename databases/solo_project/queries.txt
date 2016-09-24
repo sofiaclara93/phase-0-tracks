@@ -1,0 +1,37 @@
+1. SELECT * FROM patients;
+
+1|Regina Phalange|27|true|2
+2|Chandler Bing|30|false|1
+3|Monica Gellar|28|true|1
+4|Drake Ramorey|31|false|2
+5|Rachel Greene|28|false|2
+
+2. UPDATE patients SET dilation="true" WHERE name="Rachel Greene";
+
+3. SELECT * FROM patients, materials WHERE patients.materials_id = materials.id;
+
+1|Regina Phalange|27|true|2|2|contact lens
+2|Chandler Bing|30|false|1|1|glasses
+3|Monica Gellar|28|true|1|1|glasses
+4|Drake Ramorey|31|false|2|2|contact lens
+5|Rachel Greene|28|true|2|2|contact lens
+
+4. SELECT patients.name, materials.material_name FROM patients JOIN materials ON patients.materials_id = materials.id;
+
+Regina Phalange|contact lens
+Chandler Bing|glasses
+Monica Gellar|glasses
+Drake Ramorey|contact lens
+Rachel Greene|contact lens
+
+5. DELETE FROM patients WHERE age=30;
+
+6.SELECT patients.id, materials.material_name, patients.dilation
+    FROM patients
+    LEFT JOIN materials
+    ON patients.materials_id=materials.material_name;
+
+1||true
+3||true
+4||false
+5||true
