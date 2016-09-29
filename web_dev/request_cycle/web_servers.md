@@ -1,0 +1,3 @@
+1. One key design about Linux is that it is a free and open source software. 
+2. A virtual private server is used by companies. It is a virtual server that users can use over the internet to run an operating system. Users can run any software that is run on that OS. It is beneficial because it allows the user to access the software from anywhere with internet service, and it allows projects to be saved in a cloud service if there are any issues with the user's computer.
+3. You don't want to work on the root because that is the main user. If there was more than one user using the system you want them all to be different so that one user doens't override another's work. 
