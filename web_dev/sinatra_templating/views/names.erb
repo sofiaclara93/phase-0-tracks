@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enrolled Students</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <h2>Roll Call</h2>
+  <ul>
+    <% @students.each do |student| %>
+      <li><%=  student['name'] %> </li>
+    <% end %>
+  </ul>
+  <script type="text/javascript" src="../scripts.js"></script>
+</body>
+</html>
