@@ -1,0 +1,57 @@
+body {
+  max-width: 600px;
+  margin: 50px auto 300px;
+  font-family: helvetica;
+  line-height: 1.6;
+  background-color: black;
+}
+
+h3 {
+  color: white;
+  font-size: 12px;
+}
+h1 {
+  border-bottom: 4px solid white;
+  padding-top: 40px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+}
+
+
+p {
+  color: black;
+  font-size: 15px;
+}
+
+
+#ghost {
+  height: 100px;
+  width: auto;
+  float: left;
+  position: relative;
+}
+
+#spirit {
+  height: 100px;
+  width: auto;
+  float: right;
+  position: relative;
+}
+
+
+#second {
+  font-size: 30px;
+  padding: 10px;
+}
+
+#third {
+  font-size: 40px;
+}
+
+#fourth {
+  font-size: 50px;
+}
+
+
